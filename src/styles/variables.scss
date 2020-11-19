@@ -1,0 +1,14 @@
+$main-color: #eee;
+$cell-width: 100px;
+$cell-height: 100px;
+$gap: 1px;
+$month-days: 28, 29, 30, 31;
+$weekdays: (
+  mon: 0,
+  tue: 1 * ($cell-width + $gap),
+  wed: 2 * ($cell-width + $gap),
+  thu: 3 * ($cell-width + $gap),
+  fri: 4 * ($cell-width + $gap),
+  sat: 5 * ($cell-width + $gap),
+  sun: 6 * ($cell-width + $gap),
+);
